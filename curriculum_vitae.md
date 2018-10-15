@@ -20,30 +20,30 @@ Systems Engineer passionate about designing large applications in the domains of
 Python (PyTorch, TensorFlow, Keras, Pandas), C/C++ (FreeRTOS, Micropython), Java, R, MatLab, MongoDB
 
 ## Work Experience
-**Graduate Researcher** - Moffett Field, CA <br />
-*Carnegie Mellon University : Jan 2018 - May 2018* <br />
+### Graduate Researcher
+*Carnegie Mellon University : Jan 2018 - May 2018 (Moffett Field, CA)*  <br />
 * Research Focus : Model Compression of Deep Network Architectures
 * Study of compression techniques used on deep learning models for compute gains during inferencing and training
 * Implementation of stochastic quantization and encoding of weights to reduce model size by a factor of x5 while sacrificing 3% accuracy (99% - 96%)
 
 <br />
 
-**Graduate Research Assistant** - Moffett Field, CA <br />
-*Carnegie Mellon University - Computations and Communications Group : Jan 2018 - May 2018* <br />
+### Graduate Research Assistant
+*Carnegie Mellon University - Computations and Communications Group : Jan 2018 - May 2018 (Moffett Field, CA)* <br />
 * Worked as part of a team of 3 to design and develop a unified sensing framework for environmental sensors deployed by the US Geological Survey
 * Developed a modular dataflow based sensing library in Micropython for real time embedded applications. The Micropython library was then incorporated into FreeRTOS as a callable function which was sensor agnostic.
 * Framework was developed and tested on I2C and SDI-12 sensors real time for concurrent sampling up to a frequency of 1 KHz
 
 <br />
 
-**Technical intern** - Pune Area, India <br />
-*SciCom Software Pvt Ltd : Jun 2015 - Jul 2016* <br />
+### Technical intern
+*SciCom Software Pvt Ltd : Jun 2015 - Jul 2016 (Pune Area, India)* <br />
 * Worked as part of a team of 3 to design and develop a unified sensing framework for environmental sensors deployed by the US Geological Survey
 * Developed a modular dataflow based sensing library in Micropython for real time embedded applications. The Micropython library was then incorporated into FreeRTOS as a callable function which was sensor agnostic.
 * Framework was developed and tested on I2C and SDI-12 sensors real time for concurrent sampling up to a frequency of 1 KHz 
 
 ## Projects
-**Compressed Convolutional Networks for Automobile Speed and Type Identification**
+### Compressed Convolutional Networks for Automobile Speed and Type Identification
   * Quantized CNN architecture to identify automobile speed and type from magnetometer data
   * Dataset : 381 samples, each containing 3 axes of magnetometer data, each of variable length
   * Preprocessing : Dataset augmentation, Filtering, Event detection and windowing
