@@ -3,8 +3,13 @@
 satyavrat.wagle@west.cmu.edu <br />
 +1 650 933 6418
 ****
-
+## Profile
 ## Education
+## Skills
+## Work Experience
+## Projects
+## Academics
+## Interests
 
 
 
