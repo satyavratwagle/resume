@@ -24,7 +24,7 @@ Python (PyTorch, TensorFlow, Keras, Pandas), C/C++ (FreeRTOS, Micropython), Java
 *Carnegie Mellon University : Jan 2018 - May 2018* <br />
 * Research Focus : Model Compression of Deep Network Architectures
 * Study of compression techniques used on deep learning models for compute gains during inferencing and training
-* Implementation of stochastic quantization and Huffman encoding of weights to reduce model size by a factor of x5 while sacrificing 3% accuracy (98% - 95%)
+* Implementation of stochastic quantization and encoding of weights to reduce model size by a factor of x5 while sacrificing 3% accuracy (99% - 96%)
 
 <br />
 
@@ -43,7 +43,14 @@ Python (PyTorch, TensorFlow, Keras, Pandas), C/C++ (FreeRTOS, Micropython), Java
 * Framework was developed and tested on I2C and SDI-12 sensors real time for concurrent sampling up to a frequency of 1 KHz 
 
 ## Projects
-* 
+**Compressed Convolutional Networks for Automobile Speed and Type Identification**
+  * Quantized CNN architecture to identify automobile speed and type from magnetometer data
+  * Dataset : 381 samples, each containing 3 axes of magnetometer data, each of variable length
+  * Preprocessing : Dataset augmentation, Filtering, Event detection and windowing
+  * Model : Explored convolutional and recurrent models, fixed two networks, each [ 3 Convolutional , 1 Softmax ], also used a network which shared weights up to the second layer with separate embedding layers and sofmax layers for speed and type.
+  * Compression : Used stochastic compression to encode the weights to 8-bits
+  * Results : 99% Accuracy on full precision models, 96% on stochastically quantized models
+  * Future work : Pruning techniques for network, Expand dataset and generalize model
 
 ## Academics
 ## Interests
