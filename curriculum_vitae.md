@@ -51,6 +51,32 @@ Python (PyTorch, TensorFlow, Keras, Pandas), C/C++ (FreeRTOS, Micropython), Java
   * Compression : Used stochastic compression to encode the weights to 8-bits
   * Results : 99% Accuracy on full precision models, 96% on stochastically quantized models
   * Future work : Pruning techniques for network, Expand dataset and generalize model
+  
+### Distributed Neural Networks for Resource Constrained Devices
+  * Distributed Neural Network Architecture to separate training and inferencing devices for resource efiicient operation
+  * Dataset : 562 samples, each containing 1 temperature and 1 ambient light value
+  * Preprocessing : Data smoothening ,window selection ,downsampling
+  * Architecture : Remote server for training, weights shared on MQTT broker, ESP8266 for inferencing
+  * Model : 4 Layer Fully Connected Network 
+  * Results : Finite Response System for dependencies up to 2 days in the past
+  * Future work : Accuracy over long term memory, using recurrent models
 
 ## Academics
+#### Carnegie Mellon University
+* 11-785 : Introduction to Deep Learning
+* 18-661 : Machine Learning for Engineers
+* 18-647 : Cnnected Embedded Systems Architecture
+* 18-843 : Mobile and Pervasive Computing
+* 18-847 : Wireless Software Systems Architecture
+* 18-747 : Wireless Device Architecture
+* 18-652 : Foundations of Software Engineering
+* 18-990 : Graduate Project
+
+#### Online
+* Microsoft : Data Science and Machine Learning Essentials
+* UC San Diego : Internet of Things Specialization
+* UT Austin : Real Time Networks
+* UT Austin : Embedded Systems
+* Purdue University : Signal Processing for Embedded Systems
+
 ## Interests
